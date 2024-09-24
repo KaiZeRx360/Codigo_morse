@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor Morse</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Convertidor de Código Morse</h1>
+        <textarea id="inputText" class="form-control" placeholder="Introduce texto o código Morse"></textarea>
+        <div class="form-group">
+            <label for="conversionType">Selecciona el tipo de conversión:</label>
+            <select id="conversionType" class="form-control">
+                <option value="" disabled selected>Elige una opción</option>
+                <option value="morse">Convertir a Código Morse</option>
+                <option value="texto">Convertir a Texto</option>
+            </select>
+        </div>
+        <button id="convert" class="btn btn-primary btn-block">Convertir</button>
+        <div id="outputContainer" class="mt-4 hidden">
+            <h2>Resultado:</h2>
+            <textarea id="outputText" class="form-control" placeholder="Resultado" readonly></textarea>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

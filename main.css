@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+#outputContainer {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#outputText {
+    height: 100px;
+}
